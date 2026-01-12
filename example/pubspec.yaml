@@ -5,7 +5,7 @@ publish_to: none
 
 environment:
   sdk: ">=3.6.0-0 <4.0.0"
-  flutter: '>=3.37.0-0'
+  flutter: '>=3.35.0'
 
 dependencies:
   flutter:
@@ -14,7 +14,9 @@ dependencies:
     path: ../
   flutter_map: ^8.2.1
   latlong2: ^0.9.1
-  vector_tile_renderer: ^7.0.0-beta.1
+  vector_tile_renderer: 
+    git:
+      url: https://github.com/RekanAnwar/dart-vector-tile-renderer
     #path: ../../vector_tile_renderer
 
 dev_dependencies:
